@@ -22,6 +22,7 @@ public class Exercicio3 {
 		
 		System.out.printf("\nO salário liquido do colaborador é: %.2f", CalculaSalarioLiquido(salarioBruto, adicionalNoturno, horasExtras, descontos));
 		
+		leia.close();
 	}
 	
 	static float CalculaSalarioLiquido(float salarioBruto, float adicionalNoturno, float horasExtras, float descontos) {

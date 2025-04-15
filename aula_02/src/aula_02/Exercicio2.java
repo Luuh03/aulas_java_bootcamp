@@ -17,6 +17,7 @@ public class Exercicio2 {
 		
 		System.out.printf("\nA média final do participante é: %.1f", ((notas[0] + notas[1] + notas[2] + notas[3]) / 4));
 
+		leia.close();
 	}
 
 }

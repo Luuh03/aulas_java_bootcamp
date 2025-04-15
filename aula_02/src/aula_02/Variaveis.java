@@ -9,8 +9,8 @@ public class Variaveis {
 		Scanner leia = new Scanner(System.in);
 
 		// Definição das variáveis
-		char opcao = 'V';
-		boolean menorIdade = true;
+		//char opcao = 'V';
+		//boolean menorIdade = true;
 		
 		// Definição da constante
 		final double pi = 3.1415;
@@ -23,8 +23,6 @@ public class Variaveis {
 		
 		String nome = "Luan";
 		
-		
-		
 		// Definição de valor
 		// numero_02 = 75;
 		
@@ -34,6 +32,8 @@ public class Variaveis {
 		System.out.printf("Constante PI é igual a: %.2f\n ", pi);
 
 		System.out.println("Variável nome em letras maiúsculas: " + nome.toUpperCase());
+		
+		leia.close();
 	}
 
 }

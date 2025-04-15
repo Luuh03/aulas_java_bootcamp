@@ -16,6 +16,7 @@ public class Exercicio4 {
 		}
 		System.out.printf("\nA diferença é de: %.1f", CalculaDiferenca(valores[0], valores[1], valores[2], valores[3]));
 		
+		leia.close();
 	}
 	
 	static float CalculaDiferenca(float valor1, float valor2, float valor3, float valor4) {

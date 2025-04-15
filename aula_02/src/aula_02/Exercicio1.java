@@ -16,6 +16,7 @@ public class Exercicio1 {
 		
 		System.out.printf("\nO novo salário será de: R$%.2f", (salario + abono));
 
+		leia.close();
 	}
 
 }

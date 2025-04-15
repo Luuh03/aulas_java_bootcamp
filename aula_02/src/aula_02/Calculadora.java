@@ -20,5 +20,6 @@ public class Calculadora {
 		System.out.printf("\n%.1f ^ %.1f = %.1f", numero_01, numero_02, Math.pow(numero_01, numero_02));
 		System.out.printf("\n%.1f R %.1f = %.1f", numero_01, numero_02, Math.sqrt(numero_01));
 		
+		leia.close();
 	}
 }
