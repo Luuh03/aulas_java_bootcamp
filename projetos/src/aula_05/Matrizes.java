@@ -9,7 +9,7 @@ public class Matrizes {
 		Scanner leia = new Scanner(System.in);
 		
 		//int matrizInteiros[][] = {{10, 15, 35}, {70, 120, 140}, {50, 100, 150}};
-		Float matrizReal[][] = new Float[3][3];
+		//Float matrizReal[][] = new Float[3][3];
 		int matrizIrregular[][] = {{10, 15}, {70, 120}, {50, 100}};
 		
 		/*
